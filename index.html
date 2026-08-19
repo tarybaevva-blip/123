@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aikerim — ювелирные украшения</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="header"><a class="brand" href="#top">Aikerim</a><nav><a href="#catalog">Каталог</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></nav><button class="admin-trigger" aria-label="Открыть панель управления">⌘</button></header>
+    <main id="top">
+      <section class="hero"><div class="hero-copy"><p class="eyebrow">ЗОЛОТО, КОТОРОЕ ОСТАЁТСЯ С ВАМИ</p><h1>Aikerim</h1><p class="lead">Ювелирные украшения, созданные подчеркивать красоту.</p><p class="subtle">Коллекции из золота 585 пробы — для особенных дней и каждого вашего «сегодня».</p><a href="#catalog" class="button">Смотреть украшения <span>→</span></a></div><div class="hero-image"><img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1400&q=85" alt="Золотые украшения Aikerim" /></div></section>
+      <section class="catalog-section" id="catalog"><div class="section-head"><div><p class="eyebrow">НАША КОЛЛЕКЦИЯ</p><h2>Каталог</h2></div><div class="catalog-tools"><div id="filters" class="filters"></div><select id="sort" aria-label="Сортировка"><option value="order">По популярности</option><option value="asc">Цена: по возрастанию</option><option value="desc">Цена: по убыванию</option></select></div></div><div id="products" class="products"></div></section>
+      <section class="story"><img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1200&q=85" alt="Золотое кольцо" /><div><p class="eyebrow">ВНИМАНИЕ К ДЕТАЛЯМ</p><h2>Золото для вашей истории</h2><p>Мы выбираем украшения, которые сияют без повода. Тонкие формы, благородный блеск и неизменное качество в каждой детали.</p><a href="#contacts" class="text-link">Связаться с нами →</a></div></section>
+      <section id="reviews" class="reviews-section"><p class="eyebrow">ТЁПЛЫЕ СЛОВА</p><h2>Отзывы наших клиентов</h2><div id="reviews-list" class="reviews"></div></section>
+      <section id="contacts" class="contacts"><div><p class="eyebrow">ВСЕГДА НА СВЯЗИ</p><h2>Выберите украшение<br />для себя</h2><a class="button light" data-whatsapp href="#">Написать в WhatsApp <span>→</span></a></div><div id="contact-data" class="contact-data"></div></section>
+    </main><footer><a class="brand" href="#top">Aikerim</a><span>© 2026 Aikerim. С любовью к деталям.</span><button class="footer-admin">Для владельца</button></footer>
+    <dialog id="product-modal" class="modal"></dialog><dialog id="admin-modal" class="admin-modal"></dialog>
+    <script src="/app.js"></script>
+  </body>
+</html>

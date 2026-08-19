@@ -1,0 +1,6 @@
+{
+  "name": "aikerim-jewelry",
+  "version": "1.0.0",
+  "scripts": { "start": "vite --host 0.0.0.0" },
+  "devDependencies": { "vite": "latest" }
+}
